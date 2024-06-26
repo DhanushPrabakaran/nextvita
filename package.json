@@ -1,5 +1,5 @@
 {
-  "name": "NextVita",
+  "name": "nextvita",
   "description": "NextVita is a free Next Js boilerplate aimed for a 100% score in the lighthouse to get maximum benefits from the Google Core Web Vital SEO update.",
   "version": "0.1.0",
   "author": {
@@ -19,11 +19,11 @@
   "dependencies": {
     "gray-matter": "^4.0.3",
     "mdx-prism": "^0.3.3",
-    "next": "^11.1.1",
+    "next": "^14.2.4",
     "next-mdx-remote": "^3.0.2",
     "next-seo": "^4.24.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "remark-autolink-headings": "^6.0.1",
     "remark-code-titles": "^0.1.2",
     "remark-slug": "^6.0.0"

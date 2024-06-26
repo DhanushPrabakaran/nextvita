@@ -13,49 +13,49 @@ const Header = ({ HeroComp }) => {
     <header>
       <nav>
         <Link href="/" passHref>
-          <a>
+          
             <Image src="/logo.png" alt="img-logo" width="211" height="60" />
-          </a>
+          
         </Link>
         <Link href="/" passHref>
-          <a>
+        
             <Image
               src="/logo2.png"
               alt="img-logo-mobile"
               width="60"
               height="60"
             />
-          </a>
+          
         </Link>
         <ul>
           <li>
             <Link href="/">
-              <a>Home</a>
+              Home
             </Link>
           </li>
           <li>
             <Link href="/blog">
-              <a>Blog</a>
+              Blog
             </Link>
           </li>
           <li>
-            <a
+            <Link
               href="https://github.com/shivammodiin/nextvita"
-              aria-label="NextVita-Github"
-              target="_blank"
-              rel="noopener"
+              // aria-label="NextVita-Github"
+              // target="_blank"
+              // rel="noopener"
             >
               GitHub ↗
-            </a>
+            </Link>
           </li>
           <li>
             <Link href="/about">
-              <a>About</a>
+              About
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <a>Contact</a>
+            Contact
             </Link>
           </li>
         </ul>

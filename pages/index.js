@@ -10,17 +10,16 @@ import Link from "next/link";
 export default function Home() {
   const helperElement = () => (
     <p>
-      <a
-        target="_blank"
-        rel="noopener"
+      <Link
+        
         href="https://github.com/shivammodiin/nextvita"
       >
         <i>Github Repo ↗</i>
-      </a>
+      </Link>
       <Link href="/about">
-        <a>
+        
           <b>Get Started ↗ </b>
-        </a>
+        
       </Link>
     </p>
   );

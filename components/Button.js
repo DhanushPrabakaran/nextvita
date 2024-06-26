@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 const Button = ({ src, title }) => (
   <p>
-    <a target="_self" rel="noopener" href={src}>
+    <Link target="_self" rel="noopener" href={src}>
       <i>{title}</i>
-    </a>
+    </Link>
   </p>
 );
 

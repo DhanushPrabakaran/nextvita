@@ -5,16 +5,13 @@ const Footer = () => (
     <hr />
     <p>
       Made with ❤ in{" "}
-      <Link href="/">
-        <a
+      
+        <Link
+
           href="https://github.com/shivammodiin/nextvita"
-          aria-label="NextVita"
-          target="_blank"
-          rel="noopener"
         >
           NextVita ↗
-        </a>
-      </Link>
+        </Link>
     </p>
   </footer>
 );

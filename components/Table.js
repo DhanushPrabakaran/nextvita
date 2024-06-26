@@ -1,10 +1,21 @@
+import Link from "next/link";
+
 export default function Table() {
   return (
     <section>
       <header>
         <h2> A minimalist stylesheet for HTML elements</h2>
-        <p>A few, clean styling options without any class using <a href="https://github.com/andybrewer/mvp/" target="_blank"
-          rel="noopener" >MVP css</a>. Below is the sample of table.</p>
+        <p>
+          A few, clean styling options without any class using{" "}
+          <Link
+            href="https://github.com/andybrewer/mvp/"
+            // target="_blank"
+            // rel="noopener"
+          >
+            MVP css
+          </Link>
+          . Below is the sample of table.
+        </p>
       </header>
       <table>
         <thead>
